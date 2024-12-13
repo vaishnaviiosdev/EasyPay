@@ -47,7 +47,6 @@
 			children = (
 				270FB0C32D0AE8CF006CB671 /* EasyPay */,
 				270FB0C22D0AE8CF006CB671 /* Products */,
-				E88BE6358C07BFF38A6EB267 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,13 +56,6 @@
 				270FB0C12D0AE8CF006CB671 /* EasyPay.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E88BE6358C07BFF38A6EB267 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
