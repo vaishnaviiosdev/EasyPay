@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="iPad13_0rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
@@ -13,24 +13,49 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1032" height="1376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yAG-WN-yQB">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1032" height="1376"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="letter-e" translatesAutoresizingMaskIntoConstraints="NO" id="pwM-32-QFp">
-                                        <rect key="frame" x="121.66666666666669" y="351" width="150" height="150"/>
+                                        <rect key="frame" x="391" y="563" width="250" height="250"/>
                                         <constraints>
+                                            <constraint firstAttribute="height" constant="250" id="5yp-ly-alE"/>
                                             <constraint firstAttribute="width" constant="150" id="gNU-9Q-puQ"/>
                                             <constraint firstAttribute="height" constant="150" id="ikx-LD-Fyu"/>
+                                            <constraint firstAttribute="width" constant="250" id="jkk-Yd-Ni1"/>
                                         </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="gNU-9Q-puQ"/>
+                                                <exclude reference="jkk-Yd-Ni1"/>
+                                                <exclude reference="5yp-ly-alE"/>
+                                                <exclude reference="ikx-LD-Fyu"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="gNU-9Q-puQ"/>
+                                                <include reference="ikx-LD-Fyu"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <mask key="constraints">
+                                                <include reference="jkk-Yd-Ni1"/>
+                                                <include reference="5yp-ly-alE"/>
+                                            </mask>
+                                        </variation>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EasyPay" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iww-MW-Tj7">
-                                        <rect key="frame" x="20" y="521" width="353" height="19"/>
+                                        <rect key="frame" x="20" y="833" width="992" height="38"/>
                                         <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="34"/>
+                                        </variation>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -41,6 +66,11 @@
                                     <constraint firstItem="pwM-32-QFp" firstAttribute="centerX" secondItem="yAG-WN-yQB" secondAttribute="centerX" id="OFn-FF-gdh"/>
                                     <constraint firstItem="iww-MW-Tj7" firstAttribute="top" secondItem="pwM-32-QFp" secondAttribute="bottom" constant="20" id="bXs-wG-qaB"/>
                                 </constraints>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="iww-MW-Tj7"/>
+                                    </mask>
+                                </variation>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

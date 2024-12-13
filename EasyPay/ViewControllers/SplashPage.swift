@@ -9,20 +9,13 @@ import UIKit
 
 class SplashPage: UIViewController {
     
-    //var viewModel: ViewModel!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        //viewModel = ViewModel()
-        //viewModel.fetchUsers()
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func didGetStartedBtnTap(_ sender: Any) {
-        let HomeVC = storyBd.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+        let HomeVC = storyBd.instantiateViewController(withIdentifier: "TabBarViewController") as! TabBarViewController
         self.navigationController?.pushViewController(HomeVC, animated: false)
     }
-    
-
 }
 
