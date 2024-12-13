@@ -1219,7 +1219,7 @@
                                                                         </variation>
                                                                     </label>
                                                                     <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" distribution="equalCentering" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="HnL-MP-m3w">
-                                                                        <rect key="frame" x="20" y="86" width="862" height="80"/>
+                                                                        <rect key="frame" x="10" y="86" width="882" height="80"/>
                                                                         <subviews>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GWM-wB-3yi">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="165.5" height="80"/>
@@ -1304,7 +1304,7 @@
                                                                                 </variation>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="psx-95-tFq">
-                                                                                <rect key="frame" x="387" y="0.0" width="112" height="80"/>
+                                                                                <rect key="frame" x="397" y="0.0" width="112" height="80"/>
                                                                                 <subviews>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="copy" translatesAutoresizingMaskIntoConstraints="NO" id="Vrs-MJ-Dcs">
                                                                                         <rect key="frame" x="10" y="20" width="40" height="40"/>
@@ -1370,7 +1370,7 @@
                                                                                 </variation>
                                                                             </view>
                                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UhH-2T-tUK">
-                                                                                <rect key="frame" x="743.5" y="0.0" width="118.5" height="80"/>
+                                                                                <rect key="frame" x="763.5" y="0.0" width="118.5" height="80"/>
                                                                                 <subviews>
                                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="share" translatesAutoresizingMaskIntoConstraints="NO" id="Mno-Ae-TQJ">
                                                                                         <rect key="frame" x="10" y="20" width="40" height="40"/>
@@ -1438,7 +1438,7 @@
                                                                         </subviews>
                                                                     </stackView>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X0V-QK-EoF">
-                                                                        <rect key="frame" x="892" y="86" width="80" height="80"/>
+                                                                        <rect key="frame" x="902" y="86" width="80" height="80"/>
                                                                         <subviews>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="more" translatesAutoresizingMaskIntoConstraints="NO" id="K4v-iO-Iwd">
                                                                                 <rect key="frame" x="30" y="30" width="20" height="20"/>
@@ -1508,14 +1508,14 @@
                                                                     <constraint firstItem="HnL-MP-m3w" firstAttribute="top" secondItem="uAw-lp-ydc" secondAttribute="bottom" constant="15" id="5pj-Kt-khT"/>
                                                                     <constraint firstAttribute="bottom" secondItem="HnL-MP-m3w" secondAttribute="bottom" constant="20" id="6UZ-UV-bDg"/>
                                                                     <constraint firstAttribute="trailing" secondItem="5E2-LI-EgE" secondAttribute="trailing" constant="10" id="939-Vt-mPo"/>
-                                                                    <constraint firstAttribute="trailing" secondItem="X0V-QK-EoF" secondAttribute="trailing" constant="20" id="DgD-dP-2Zz"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="X0V-QK-EoF" secondAttribute="trailing" constant="10" id="DgD-dP-2Zz"/>
                                                                     <constraint firstItem="X0V-QK-EoF" firstAttribute="top" secondItem="HnL-MP-m3w" secondAttribute="top" id="Pux-pC-7nc"/>
                                                                     <constraint firstItem="5E2-LI-EgE" firstAttribute="top" secondItem="M1m-iq-Inw" secondAttribute="top" constant="10" id="Wah-ac-v6s"/>
                                                                     <constraint firstItem="5E2-LI-EgE" firstAttribute="leading" secondItem="M1m-iq-Inw" secondAttribute="leading" constant="10" id="XCp-qP-jr8"/>
                                                                     <constraint firstItem="X0V-QK-EoF" firstAttribute="bottom" secondItem="HnL-MP-m3w" secondAttribute="bottom" id="Zcr-Pk-pe3"/>
                                                                     <constraint firstAttribute="trailing" secondItem="uAw-lp-ydc" secondAttribute="trailing" constant="10" id="a7X-KQ-HL4"/>
                                                                     <constraint firstItem="uAw-lp-ydc" firstAttribute="top" secondItem="5E2-LI-EgE" secondAttribute="bottom" constant="5" id="boF-K7-GrB"/>
-                                                                    <constraint firstItem="HnL-MP-m3w" firstAttribute="leading" secondItem="M1m-iq-Inw" secondAttribute="leading" constant="20" id="ijq-1X-uRG"/>
+                                                                    <constraint firstItem="HnL-MP-m3w" firstAttribute="leading" secondItem="M1m-iq-Inw" secondAttribute="leading" constant="10" id="ijq-1X-uRG"/>
                                                                     <constraint firstItem="X0V-QK-EoF" firstAttribute="leading" secondItem="HnL-MP-m3w" secondAttribute="trailing" constant="10" id="l9B-TP-tvi"/>
                                                                 </constraints>
                                                                 <variation key="heightClass=regular-widthClass=compact">
