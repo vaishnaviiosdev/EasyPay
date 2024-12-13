@@ -54,6 +54,7 @@ class HomeViewController: UIViewController {
         self.setCornerRadius(VIEW: self.recentTransactionView, iphone: 10, ipad: 20)
         self.setCornerRadius(VIEW: self.linkAccountView, iphone: 12, ipad: 25)
         self.setCornerRadius(VIEW: self.newAccountView, iphone: 12, ipad: 25)
+        self.setCornerRadius(VIEW: self.moreView, iphone: 20, ipad: 40)
         
         self.moreView.layer.borderWidth = 0.5
         self.linkAccountView.layer.borderWidth = 1
